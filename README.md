@@ -18,5 +18,4 @@ Run the Python code on the right half of your screen.
 The script will automatically start clicking saved items and record each for 20 seconds.
 You will find the videos and images in the videos folder in your main directory.
 Next Steps
-This script saves all content, but duplicates may appear (for instance, a 20-second video of a static image). To clean up duplicates and optimize the captured content, another Python script (located in a separate repository)
-will handle the video/image comparison to filter out unnecessary duplicates.
+This script saves all the content, but the saved elements are videos generated from screen recordings. Therefore, I should use a new code to crop the part that interests us. Look through my repositories for the one called "video-cropper" to find the code in questioN.
